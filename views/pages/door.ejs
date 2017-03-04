@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ../partials/head/head %>
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <!-- nav title -->
+            <% include ../partials/title/title %>
+            <!-- /nav title -->
+
+            <!-- menu profile quick info -->
+            <% include ../partials/profile/profile %>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <% include ../partials/side/sidemenu01 %>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <% include ../partials/side/side-footer %>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <% include ../partials/top/top %>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <% include ../partials/body/door %>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <% include ../partials/footer/footer %>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <% include ../partials/body/include_device_door %>
+  </body>
+</html>
